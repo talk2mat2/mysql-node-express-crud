@@ -5,6 +5,12 @@
    color:#837d7d
    
 }
+.offline{
+    color: red;
+}
+.online{
+    color: blue;
+}
 li{
     list-style: none;
     margin: 0.3em;
@@ -14,14 +20,9 @@ ul{
     padding:0;
 }
 #input input,input:focus{
-    width:79%;
+    width:80%;
     border: 1px solid silver;
     outline: none;
-}
-
-#registertyping,registertyping3{
-    width: 40%;
-
 }
 #input button {
    width:20%;
@@ -38,16 +39,8 @@ ul{
 }
 .root{background-color: red;}
 #input{
-    margin:0.2em 0 0.2em;
     width:100%;
-    display:flex;
-    flex-direction: row;
     
-}
-.list{
-   display: flex;
-  align-items: center;
-   flex-direction: column;
 }
 .table{
     width:400px;
